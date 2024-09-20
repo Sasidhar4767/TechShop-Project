@@ -1,0 +1,642 @@
+body{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    color: lightsteelblue;
+}
+/*  ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*/
+
+header{
+    margin: 0px;
+    position: sticky;
+    top: 0;
+    
+}
+.header{
+    position: sticky;
+    top: 0px;
+    background-color: black;
+    color: wheat;
+    display: flex;
+}
+.Tech{
+    color: lightgray;
+    padding-top: 30px;
+    padding-left: 980px;
+  
+   
+}
+a{
+    text-decoration: none;
+    color: lightgray;
+}
+a:link{
+    color: lightgray;
+}
+a:visited{
+    color: lightgray;
+}
+.cart{
+    color: lightgray;
+
+}
+
+.Loginform{
+   top: 80px;
+   right: 150px;
+   display: none;
+   border: 2px solid lightsteelblue;
+   background-color: black;
+   color: lightgray;
+   padding: 10px;
+   position: absolute;
+   width: 300px;
+}
+.button:hover .Loginform{
+    display: block;
+    font-size:smaller;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    
+}
+.loginSignup{
+    width: 200px;
+    padding: 10px;
+    background-color:rgb(24, 23, 23);
+    border: 1px solid lightskyblue;
+    color: rgb(212, 214, 214);
+}
+.loginSignup p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+.Loginform:hover{
+    display: block;
+}
+.Tech i{
+    padding: 0px 20px;
+}
+
+
+
+
+/*  ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+.Productdetails-02{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+    padding: 20px;
+    padding-left: 100px;
+    background-color: black;
+    color: lightsteelblue;
+
+}
+
+.Productdetails-01{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+.Productsdetails-3{
+    grid-template-columns: repeat(4, 1fr);
+
+}
+.Productdetails-4{
+    padding: 0px 100px;
+}
+.details{
+    width: 300px;
+    height: 250px;
+}
+.ShopNow{
+    background-color: red;
+    padding: 10px;
+    border: 0px;
+    color: whitesmoke;
+}
+
+.fig{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+
+}
+#FPtitle{
+    text-align: center;
+}
+
+.FeaturedProducts{
+    text-align: center;
+    color: #a2acbb;
+    border-radius: 5px;
+    margin: 5px;
+    height: 400px;
+    width: 220px; 
+}
+
+.FeaturedProducts-01{
+    margin: 5px;
+    margin-top: 120px;
+    height: 260px;
+    width: 220px; 
+
+}
+.FeaturedProducts-02{
+    margin: 5px;
+    margin-top: 80px;
+    height: 350px;
+    width: 220px; 
+
+}
+.FeaturedProducts-03{
+    margin: 5px;
+    margin-top: 40px;
+    height: 420px;
+    width: 250px; 
+
+}
+.Featured{
+    text-align: center;
+    margin: 5px;
+    padding: 15px;
+    line-height: 0px;    
+}
+.Featured-01{
+    width: 120px;
+    height: 130px;
+
+    
+}
+.Featured-02{
+    width: 180px;
+    height: 190px;
+
+    
+}
+.Featured-03{
+    width: 210px;
+    height: 250px;
+
+    
+}
+
+
+.TopProducts{
+    text-align: center;
+    color: lightsteelblue;
+    padding: 10px;
+}
+.Producttitle{
+    color: lightsteelblue;
+    padding: 10px;
+    margin: 50px;
+    
+}
+.Producttitle:hover{
+    background-color: red;
+    color: wheat;
+    padding: 10px;
+    border-radius: 3px;
+}
+#Producttitle{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    margin: 0px 110px;
+}
+
+#TP{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin: 5px;
+
+}
+
+
+.star{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    border-radius: 5px;
+    margin: 7px;
+    height: 440px;
+    width: 312px;
+    border: 1px solid #444343;
+    
+}
+
+.Productborder{
+    width: 255px;
+    height: 245px;
+    margin: 0px;
+    padding: 0px;
+    line-height: 0px;
+
+    
+}
+.Productborder p{
+    color: #919eaf;
+    font-size: small;
+
+    margin-left: 10px;
+}
+.Productborder img{
+    background-color: #181818;
+    width: 302px;
+    height: 230px;
+    padding-left: 0px;
+    padding: 5px;
+    
+}
+.Productborder-123{
+    width: 207px;
+    text-align: center;
+    margin-top: 190px;
+}
+.Starsymble{
+    color: red;
+}
+.Productborder-12{
+    margin-left:10px;
+
+
+}
+hr{
+    border:1px solid lightblue;
+    width: 240px;
+    color: black;
+}
+.addtocard{
+    background-color: red;
+    color: whitesmoke;
+    margin-left:15px;
+    width: 200px;
+    padding: 10px;
+}
+
+
+
+
+/*//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////*/
+
+
+#Headphones{
+    display: flex;
+    margin-top: 20px;
+  
+}
+
+.Productdetails{
+    flex: 1;
+    padding: 15px;
+    margin: 10px;
+    width: 150px;
+    height: 180px;
+   
+}
+#Productdetails{
+    width: 10px;
+    height: 140px;
+    margin: 10px 0px;
+    
+
+}
+
+#Productdetails img{
+    
+    padding: 10px;
+    margin: 0px;
+    width: 90px;
+    height: 90px;
+   
+}
+.img{
+    border: 1px solid rgb(122, 121, 121);
+    padding: 10px;
+   
+}
+.productimg{
+    border: 1px solid white;
+    padding: 10px;
+   
+}
+.Headphoneslarge{
+    width:600px;
+    height: 580px;
+}
+
+
+.Specification{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    padding-top: 30px;
+
+
+}
+.productdetails-1{
+    padding-top: 20px;
+    flex: 4;
+
+}
+.productdetails-2{
+    flex: 3;
+
+}
+.Starsymble i{
+    color: red;
+
+}
+.productrating{
+    color:  rgb(116, 111, 111);
+}
+.productdetails-3{
+    display: flex;
+    justify-content: space-between;
+}
+.productdetails-3 h5{
+    color: rgb(170, 39, 39);
+}
+
+.ProductHR{
+    width: 477px;
+}
+.productdetails-3 h6{
+    color:  rgb(116, 111, 111);
+
+}
+.productdetails-5 p{
+    
+    width: 170px;
+    border-radius: 3px;
+    color: rgb(143, 171, 180); 
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid rgb(122, 121, 121);
+
+}
+.productdetails-6{
+    display: flex;
+
+}
+.productdetails-8{
+    align-content: center;
+
+}
+
+#stock{
+    background-color: green;
+    padding: 10px;
+
+}
+.productdetails-7 button{
+    background-color: red;
+    margin-top: 20px;
+    color: white;
+    border-radius: 3px;
+    border: 0px;
+    text-align: center;
+    padding: 10px;
+    width: 60%;
+
+}
+
+del{
+    color:  rgb(116, 111, 111);
+}
+
+
+hr{
+    border-color: #59595a;
+}
+.Specification{
+    display: flex;
+    flex-direction: column;
+}
+
+.Specification-1{
+    display: flex;
+    justify-content: center;
+   
+}
+.Specification-1 h3{
+    font-weight: lighter ;
+    padding: 10px 50px;
+}
+.Specification-1 h3:nth-child(1){
+    background-color: red;
+    color: white;
+}
+
+.Specification-2{
+    margin: 10px;
+    padding: 24px;
+    width: 450px;
+}
+
+.Specification-2 div{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 100;
+}
+
+
+
+.titleRelatedProducts{
+    background-color: black;
+    text-align: center;
+    color: lightsteelblue;
+}
+
+
+
+#RelatedProducts{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    background-color: black;
+    color: lightsteelblue;
+    padding: 10px;
+    padding-left: 0px;
+    margin: 0px;
+
+}
+.RelatedProductsstar{
+    border: 1px solid #48494a;
+    margin: 5px;
+    padding: 20px;
+    box-shadow: 2px;
+}
+.RelatedProducts img{
+    width: 200px;
+    height: 200px;
+}
+.RelatedStar{
+    color: red;
+}
+.RelatedProducts p{
+    color: rgb(124, 149, 156); 
+}
+.RelatedButton{
+    background-color: red;
+    color: whitesmoke;
+    border: 0px;
+    padding: 10px;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+/*//////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////*/
+
+
+
+
+
+.Our{
+        text-align: center;
+        color: white;
+        height: 80px;
+        margin-top: 105px;
+    }
+    .Advantage{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        margin: 0px;
+        margin-left: 20px;
+        height: 100px;
+       
+        
+    }  
+    #advanatage{
+        color: lightgrey;
+        left:7px;
+        padding-left: 64px;
+    } 
+    #class{
+        color: red;
+        position: relative;
+        top: 19px;
+        font-size: 35px;
+
+    }
+    .OurAdvantage{
+        display: inline;
+        margin-top: 0px;
+        padding-left: 25px;
+        border: 0px;
+        color: antiquewhite;
+
+    }
+    .Express{
+        color: lightgrey ;
+        font-size: 19px;
+    }
+    .ships{
+        margin-left: 8px;
+       
+    }
+   
+    
+    footer {
+
+        background-color: black;
+        color: white; 
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        justify-content: space-around;
+        text-align: left;
+    }
+    .footer-shap{
+        
+        padding: 10px;
+    }
+    .footer-shap-1, .footer-shap-2, .footer-shap-3{
+        padding: 10px;
+        justify-self: center;
+        width: 200px;  
+
+    }
+    .footer-shap p{
+        color: rgb(124, 149, 156); 
+    }
+    .footer-shap h2{
+        color: lightgray;
+        
+    }
+    #footer-shap{
+        color: lightgray;
+        margin-left: 27px;
+    }
+    input{
+        width: 90%;
+        background-color: black;
+        padding: 5px;
+        border: 1px solid rgb(138, 118, 118);
+        color: rgb(241, 237, 237);
+    }
+    button{
+        background-color: red;
+        color: whitesmoke;
+        padding: 5px;
+        width: 50%;
+        border: none;
+    }
+    
+    footer ul li {
+        flex: 5;
+        list-style: none;
+        padding: 3px 0px;
+        margin-left: -10px;
+        text-decoration: none;
+        color: rgb(124, 149, 156); 
+        
+        
+    }
+   
+    
+
+/* footerbuttom */
+
+.footerbottom{
+    display: flex;
+    background-color: black;
+    margin-top: 2px;
+    padding: 0px 45px;
+    justify-content: space-between;
+    margin-bottom: -20px;
+}
+.foortbottom-1 {
+    display: flex;
+    align-items: center;
+
+
+}
+    
+.foortbottom-1 p{
+    color: lightgray;
+        
+}
+
+.foortbottom-1 h4{
+    padding-left: 166px;
+    margin-left:-160px;
+    font-size:medium;
+    color: whitesmoke;
+}
+.foortbottom-2{   
+    margin-top: 17px; 
+    padding-left: 390px;
+    word-spacing: 20px;
+    color: lightgray;
+}

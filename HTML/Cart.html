@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body{
+            background-color: rgb(24, 23, 23);
+        }
+        header{
+            position: absolute;
+            position: sticky;
+            top: 0px;
+        }
+       
+        .full-cart{
+            display: flex;
+            background-color: rgb(17, 17, 17);
+            flex-direction: row;
+            padding: 10px;
+            margin: 0px;
+        }
+        .full-cart > div{
+            flex: 3;
+            height: 500px;
+            margin: 17px 82px;
+            margin-left: 20px;
+            overflow-y: scroll;
+
+        }
+        .Cart-02{
+            color: lightsteelblue; 
+            flex: 2;
+            margin: 0px 10px;
+    
+        }
+        .Cart-01{
+            background-color: rgb(24, 23, 23);
+            width: 600px;
+
+        }
+        
+        .Cart{
+            display: flex;
+            color: lightsteelblue;
+            height: 200px;
+            width: 570px;
+
+
+        }
+        .Cart-1{
+            margin: 20px 10px;
+            width: 100px;
+            height: 100px;
+            padding: 10px;
+
+        }
+        .Cart-2{
+            display: flex;
+            height: 40px;
+            width: 100px;
+            
+        }
+        .Cart-2 h6{
+            border: 1px solid rgb(51, 50, 50);
+            background-color: rgb(51, 50, 50);
+            height: 20px;
+            padding-top: 8px;
+            margin-top: 22px;
+            text-align: center;
+            flex: 1;
+        }
+        .Cart-2 h5{
+            border: 1px solid rgb(51, 50, 50);
+            height: 20px;
+            padding-top: 8px;
+            margin-top: 22px;
+            text-align: center;
+            flex: 1;
+        }
+        .Cart-3{
+            padding: 23px;
+            margin: 0px 20px;
+                  
+        }
+        .Cart-4{
+            width: 475px;
+            margin-left: 40px ;
+        }
+        .Cart-5{
+            
+            color: lightsteelblue; 
+        }
+        .Cart-6{
+           text-align: center;
+
+        }
+
+        .Cart-7{
+            display: flex;
+            justify-content: space-between;
+
+        }
+        .Cart-8{
+            display: flex;
+            justify-content: space-between;
+
+        }
+        .Cart-9{
+            display: flex;
+            justify-content: space-between;
+
+        }
+        .Cart-10{
+            display: flex;
+            justify-content: space-between;
+
+        }
+        .Cart-11{
+            background-color: #ff0000;
+            color: whitesmoke;
+            width: 408px;
+            padding: 10px;
+            border: 0px;
+            font-size: larger;
+        }
+        .Cart-12{
+            color: #9c0909;
+
+        }
+
+    </style>
+</head>
+<body>
+
+        <!-- Header -->
+        <div class="header">
+            <h1>Tech-Shop</h1>
+            <div class="Tech">
+                <i class="fa-solid fa-magnifying-glass" title="search"></i>
+                <i class="fa-solid fa-cart-shopping" title="cart"></i>
+                <i class="fa-solid fa-user button"> 
+                    <div class="Loginform">
+                        <h3>Hello!</h3>
+                        <p>Access account and manage orders </p>
+                       
+                        <a href="./Form.html" class="form-btn">
+                            <button class="loginSignup">Login/Signup</button>
+                        </a> 
+                        <br>    
+                        <hr>
+                        <p>Please login</p> 
+                    </div> 
+                </i> 
+            </div>
+        </div>
+
+
+
+
+        <!-- Cart -->
+
+
+    <section class="full-cart" >
+        <div>
+            <div  class="Cart-01">
+                <div class="Cart">
+                    <div >
+                        <img class="Cart-1" src="../Assests/RelatedProducts-1.png" alt="">
+                    </div>
+                    <div >
+                        <h3>JBL Live 660NC Wireless Over-Ear NC <br> Headphones</h3>
+                        <h4>₹9,999 <del>₹14,990</del></h4>
+                        <div class="Cart-2">
+                            <h6>-</h6>
+                            <h5>1</h5>
+                            <h6>+</h6>
+                        </div>
+                    </div>            
+                    <div class="Cart-3">
+                        <i class="fa-solid fa-trash-can"></i>
+                        
+                    </div> 
+                       
+                </div>
+                <hr class="Cart-4"> <br>
+        
+                <div class="Cart" >
+                    <div >
+                        <img class="Cart-1" src="../Assests/RelatedProducts-2.png" alt="">
+                    </div>
+                    <div >
+                        <h3>boAt Rockerz 518 On-Ear Wireless<br> Headphones</h3>
+                        <h4>₹1,299 <del>₹3,990</del></h4>
+                        <div class="Cart-2">
+                            <h6>-</h6>
+                            <h5>1</h5>
+                            <h6>+</h6>
+                        </div>
+                    </div>            
+                    <div class="Cart-3">
+                        <i class="fa-solid fa-trash-can"></i>
+                        
+                    </div> 
+                       
+                </div>
+                <hr class="Cart-4"><br>
+        
+                <div class="Cart">
+                    <div >
+                        <img class="Cart-1" src="../Assests/cart-3.png" alt="">
+                    </div>
+                    <div >
+                        <h3>boAt Airdopes 131 Wireless In-Ear  <br> Headphones</h3>
+                        <h4>₹9,999 <del>₹14,990</del></h4>
+                        <div class="Cart-2">
+                            <h6>-</h6>
+                            <h5>1</h5>
+                            <h6>+</h6>
+                        </div>
+                    </div>            
+                    <div class="Cart-3">
+                        <i class="fa-solid fa-trash-can"></i>
+                        
+                    </div> 
+                       
+                </div>
+                <hr class="Cart-4">
+        
+                <div class="Cart">
+                    <div >
+                        <img class="Cart-1" src="../Assests/RelatedProducts-1.png" alt="">
+                    </div>
+                    <div >
+                        <h3>JBL Live 660NC Wireless Over-Ear NC <br> Headphones</h3>
+                        <h4>₹9,999 <del>₹14,990</del></h4>
+                        <div class="Cart-2">
+                            <h6>-</h6>
+                            <h5>1</h5>
+                            <h6>+</h6>
+                        </div>
+                    </div>            
+                    <div class="Cart-3">
+                        <i class="fa-solid fa-trash-can"></i>
+                        
+                    </div> 
+                       
+                </div>
+            </div>
+        </div>
+
+        <section  class="Cart-02">
+            <h2 class="Cart-6">Order Summary (4 items)</h2>
+        
+            <div class="Cart-5">
+    
+                <div class="Cart-7">
+                    <h4>Original Price</h4>
+                    <h4>₹22,978</h4>
+                </div>
+                <div class="Cart-8">
+                    <h4>Discount</h4>
+                    <h4 class="Cart-12">-  ₹10,132</h4>
+                </div>
+                <div class="Cart-9">
+                    <h4>Delivery</h4>
+                    <h5 class="Cart-12">Free</h5>
+                </div>
+    
+            </div><hr>
+            <div >
+                <div class="Cart-10">
+                    <h2>Total Price</h2>
+                    <h2>₹12,846</h2>
+                </div>
+                <button class="Cart-11">Checkout</button>
+            </div>
+        </section>
+    </section>
+
+
+
+    <footer>
+        <div class="footer-shap">
+            <h2>Tech-Shop</h2>
+            <p>Subscribe to our Email alerts to receive early discount offers, and new products info</p>
+            <input type="email" name="" placeholder="Email Address*" > <br> <br>
+            <button>Subscribe</button>  
+        </div>
+        <div class="footer-shap-1">
+              
+            <h3 id="footer-shap" >Help</h3>
+    
+            <ul>
+                <li>
+                    FAQs
+                </li>
+            
+                <li>
+                    Track Order
+                </li>
+            
+                <li>
+                   Cancel Order
+                   
+                </li>
+           
+                <li>
+                  Return Order
+                </li>
+                <li>
+                    Warraty Info
+                </li>
+            </ul>
+        </div>
+            <div class="footer-shap-2">
+                <h3 id="footer-shap">Policies</h3>
+    
+                <ul>
+                    <li>
+                        Return Policy
+                    </li>
+               
+                    <li>
+                        Security
+                    </li>
+               
+                    <li>
+                        Sitemao
+                    </li>
+                
+                    <li>
+                        Privacy Policy
+                    </li>
+               
+                    <li>
+                        Terms & Conditions
+                    </li>
+                </ul>
+    
+            </div>
+        <div class="footer-shap-3">
+            <h3 id="footer-shap">Company</h3>
+    
+            <ul>
+                <li>
+                    About Us    
+                </li>
+           
+                <li>
+                    Contact Us
+                </li>
+           
+                <li>
+                    Service Center
+                </li>
+                <li>
+                    Careers
+                </li>
+                <li>
+                    Affiliates
+                </li>
+            </ul>
+            
+        </div>
+        </footer>
+
+    <!-- footerbootm name -->
+<section class="fo">
+    <div class="footerbottom">
+        <div class="foortbottom-1">
+            <p>2024| All Rights Reserved. Built by|</p>
+            <h4>RANGAPPA GARI SASIDHAR</h4>
+    
+        </div>
+        <div class="foortbottom-2">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+</body>
+</html>
